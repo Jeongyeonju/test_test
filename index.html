@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Test 최면감수성 측정</title>
+<link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
+	<style>
+		body,h1,h2,h3,p,li,ul,div,section,input {margin:0; padding:0;}
+		html{font-family: 'Noto Sans KR', sans-serif; background: black;}
+		section{height:100vh; position: relative;}
+		h1 {font-family: 'Gugi', cursive; font-size: 50pt; text-align: center; color: white; letter-spacing :4px; }
+		h2 {font-family: 'Noto Sans KR', sans-serif;, font-weight: 900; width:70%; font-size: 30px; position: absolute;
+					left:15%;top:40vh;text-align: center; color:white;}
+		h3 {font-family: 'Noto Sans KR', sans-serif;, font-weight: 700; font-size: 15pt; text-align: center; color: white; letter-spacing :4px;}
+		p {font-family: 'Noto Sans KR', sans-serif;, font-weight: 400; font-size: 15pt; text-align: center; color: white;}
+		section .radio-container{ position: absolute; top:60vh; width:100%; text-align: center; font-size: 25px; font-weight: 500; color: white;}
+		section .radio-container label{ vertical-align: middle; }
+		section .radio-container input[type="radio"]{width:50px; height:20px; margin-left: 50px;}
+		.s1 {background: #A257FF;}
+		.s2{background: #924EE6;}
+		.s3{background: #7B41C2;}
+		.s4{background: #512B80;}
+		.s5{background: #291640;}
+		button{width:300px; height:70px; left: 600px; top: 380px; margin:auto; background-color:white; border-radius: 20px; padding: 15px; position: relative;}
+        button:hover{background-color:#A257FF;}
+        h4 {font-family: 'Noto Sans KR', sans-serif;, font-weight: 900; width:70%; font-size: 30px; position: relative; text-align: center; margin: auto;}
+
+
+	</style>
+</head>
+<body>
+	<section class="s1">
+		<h2 id="question1">예민한 편이다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q1" value="1" class="radio1">아니다.&nbsp;</label>
+			<label><input type="radio" name="q1" value="2" class="radio1">보통이다.&nbsp;</label>
+			<label><input type="radio" name="q1" value="3" class="radio1">그런 편이다.&nbsp;</label>
+			<label><input type="radio" name="q1" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+	<section class="s1">
+		<h2 id="question2">상상하거나 공상을 좋아한다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q2" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q2" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q2" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q2" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+	<section class="s1">
+		<h2 id="question3">타인을 쉽게 믿는다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q3" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q3" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q3" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q3" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+	<section class="s1">
+		<h2 id="question4">영화나 소설의 내용에 푹 빠진다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q4" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q4" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q4" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q4" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+	<section class="s1">
+		<h2 id="question5">걱정이 많다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q5" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q5" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q5" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q5" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+
+	<section class="s2">
+		<h2 id="question6">다혈질이다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q6" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q6" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q6" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q6" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s2">
+		<h2 id="question7">겁이 많은 편이다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q7" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q7" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q7" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q7" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s2">
+		<h2 id="question8">마음의 상처를 쉽게 받는다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q8" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q8" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q8" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q8" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s2">
+		<h2 id="question9">충동적인 결정을 내릴 때가 많다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q9" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q9" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q9" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q9" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s2">
+		<h2 id="question10">특정 공포증이 있다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q10" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q10" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q10" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q10" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s3">
+		<h2 id="question11">신경질적이다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q11" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q11" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q11" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q11" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s3">
+		<h2 id="question12">누구의 지시나 유도를 잘 따른다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q12" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q12" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q12" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q12" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s3">
+		<h2 id="question13">종교적이거나 영적인 사람이라고 생각한다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q13" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q13" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q13" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q13" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s3">
+		<h2 id="question14">생각이 단어가 아닌 영상으로 떠오른다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q14" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q14" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q14" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q14" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s3">
+		<h2 id="question15">다른 사람들이 신비한 경험에 대해서 이야기할 때 그것들을 이해할 수 있다고 생각한다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q15" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q15" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q15" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q15" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s4">
+		<h2 id="question16">잠깐 넋을 놓고 있다가 시계를 보니 생각보다 훨씬 시간이 지나가 있었던 적이 있다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q16" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q16" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q16" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q16" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s4">
+		<h2 id="question17">잠을 자던 중 잠시 깨었을 때 몸을 움직일 수도, 말을 할 수도 없었던 적이 있다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q17" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q17" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q17" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q17" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s4">
+		<h2 id="question18">새로운 생각을 쉽게 받아들이는 편이다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q18" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q18" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q18" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q18" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s4">
+		<h2 id="question19">딴 생각을 쉽게 받아들이는 편이다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q19" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q19" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q19" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q19" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s4">
+		<h2 id="question20">타인의 관심 끌기를 좋아한다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q20" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q20" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q20" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q20" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s5">
+		<h2 id="question21">질투심이 많다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q21" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q21" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q21" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q21" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s5">
+		<h2 id="question22">누군가 길을 물어보면 자상하게 알려준다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q22" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q22" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q22" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q22" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s5">
+		<h2 id="question23">장시간 움직이지 않고 앉아 있거나 누워있을 수 있다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q23" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q23" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q23" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q23" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s5">
+		<h2 id="question24">예능적 일을 즐겁게 한다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q24" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q24" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q24" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q24" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s5">
+		<h2 id="question25">자기 자신을 고칠 수 있다고 믿는다.</h2>
+		<div class="radio-container">
+			<label><input type="radio" name="q25" value="1" class="radio1">전혀 그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q25" value="2" class="radio1">그렇지 않다.&nbsp;</label>
+			<label><input type="radio" name="q25" value="3" class="radio1">조금 그렇다.&nbsp;</label>
+			<label><input type="radio" name="q25" value="4" class="radio1">그렇다.&nbsp;</label>
+		</div>
+	</section>
+
+		<section class="s6">
+			<a href="https://omg-farm.github.io/">
+			<button id="total"><h4>결과 보기</h4></button></a>
+		</section>
+
+</html>
